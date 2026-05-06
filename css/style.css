@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     padding-bottom: 40px;
-    background-color: #494949 !important;
+    background-color: #000000 !important;
     color: #fff !important;
 }
 
@@ -73,7 +73,7 @@ footer small {
 }
 
 footer a {
-    color: #0786fd;
+    color: #09ff00;
     font-weight: bolder;
     text-decoration: none;
 }
