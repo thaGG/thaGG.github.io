@@ -7,6 +7,7 @@ body {
 }
 
 body {
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,12 +15,7 @@ body {
     align-items: center;
     padding-top: 70vh;
     padding-bottom: 40px;
-    background-color: #000000 !important;
-    background-image: url('../img/rewards.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #000 url('../img/rewards.png') center center / cover no-repeat fixed !important;
     color: #fff !important;
 }
 
