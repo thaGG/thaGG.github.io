@@ -23,9 +23,6 @@
 </head>
 <body>
     <section id="wrapper" class="m-auto text-center">
-        <header>
-            <img src="img/rewards.png" alt="Microsoft Rewards" />
-        </header>
         <main>
             <div>
                 <button type="button" id="btn-start" class="btn btn-warning btn-lg">
@@ -44,11 +41,13 @@
             <div id="div-bing"></div>
         </main>
         <footer>
-            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal-help">( Settings )</a>
+            <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal-help">
+                Settings
+            </button>
         </footer>
     </section>
     <div class="modal fade" id="modal-help" tabindex="-1" aria-labelledby="modal-help" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">SETTINGS</h5>

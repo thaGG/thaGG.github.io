@@ -7,17 +7,37 @@ body {
 }
 
 body {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    padding-top: 55vh;
     padding-bottom: 40px;
     background-color: #000000 !important;
+    background-image: url('../img/rewards.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff !important;
 }
 
 #wrapper {
     max-width: 650px;
+    width: 100%;
     padding: .5em 1.5em;
 }  
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 55vh;
+    }
+
+    #wrapper {
+        padding: 1em 1rem;
+    }
+}
 
 #wrapper p {
     font-weight: bold !important;
