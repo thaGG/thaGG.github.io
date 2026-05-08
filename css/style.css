@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 55vh;
+    padding-top: 70vh;
     padding-bottom: 40px;
     background-color: #000000 !important;
     background-image: url('../img/rewards.png');
@@ -85,24 +85,6 @@ body {
 }
 
 #wrapper h1,
-#wrapper h2, 
-footer p.pt-3,
-footer label,
-footer small {
+#wrapper h2 {
     opacity: 0.8;
-}
-
-footer a {
-    color: #09ff00;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #fdbf07;
-    text-decoration: underline;
-}
-
-footer a.btn:hover {
-    text-decoration: none;
 }
